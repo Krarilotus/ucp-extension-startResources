@@ -1,0 +1,61 @@
+ui.crusader-lords: Crusader Lords
+ui.start-troops: Start troops
+ui.troop: Troop
+ui.normal-game: Normal game
+ui.crusader-game: Crusader game
+ui.deathmatch-game: Deathmatch game
+ui.european-archer: European archer
+ui.crossbowman: Crossbowman
+ui.spearman: Spearman
+ui.pikeman: Pikeman
+ui.maceman: Maceman
+ui.swordsman: Swordsman
+ui.knight: Knight
+ui.engineer: Engineer
+ui.monk: Monk
+ui.arab-archer: Arab Archer
+ui.slave: Slave
+ui.slinger: Slinger
+ui.assassin: Assassin
+ui.horsearcher: HorseArcher
+ui.arabian-swordsman: Arabian Swordsman
+ui.firethrower: Firethrower
+ui.fire-ballista: Fire Ballista
+ui.arabian-lords: Arabian Lords
+ui.start-resources: Start resources
+ui.start-gold: Start gold
+ui.advantage: Advantage
+ui.human: Human
+ui.ai: AI
+ui.major-human-advantage: Major human advantage
+ui.human-has-gold: Human has gold
+ui.computer-has-gold: Computer has gold
+ui.minor-human-advantage: Minor human advantage
+ui.no-advantage: No advantage
+ui.minor-computer-advantage: Minor computer advantage
+ui.major-computer-advantage: Major computer advantage
+ui.starting-goods: Starting goods
+ui.start-goods: Start goods
+ui.resource: Resource
+ui.wood: Wood
+ui.hop: Hop
+ui.stone: Stone
+ui.iron: Iron
+ui.pitch: Pitch
+ui.wheat: Wheat
+ui.bread: Bread
+ui.cheese: Cheese
+ui.meat: Meat
+ui.fruit: Fruit
+ui.beer: Beer
+ui.flour: Flour
+ui.bows: Bows
+ui.crossbows: Crossbows
+ui.spears: Spears
+ui.pikes: Pikes
+ui.maces: Maces
+ui.swords: Swords
+ui.leather-armor: Leather armor
+ui.metal-armor: Metal armor
+tags.balance: Balance
+tags.economy: Economy

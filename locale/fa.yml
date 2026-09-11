@@ -1,0 +1,61 @@
+ui.crusader-lords: اربابان صلیبی
+ui.start-troops: نیروهای آغازین
+ui.troop: نیرو
+ui.normal-game: بازی عادی
+ui.crusader-game: بازی صلیبی
+ui.deathmatch-game: نبرد مرگ
+ui.european-archer: کماندار اروپایی
+ui.crossbowman: زنبورک‌چی
+ui.spearman: نیزه‌دار
+ui.pikeman: نیزه‌دار زره‌پوش
+ui.maceman: گرزدار
+ui.swordsman: شمشیرزن
+ui.knight: شوالیه
+ui.engineer: مهندس
+ui.monk: راهب
+ui.arab-archer: کماندار عرب
+ui.slave: برده
+ui.slinger: فلاخن‌انداز
+ui.assassin: آدمکش
+ui.horsearcher: کماندار سواره
+ui.arabian-swordsman: شمشیرزن عرب
+ui.firethrower: آتش‌انداز
+ui.fire-ballista: بالیستای آتشین
+ui.arabian-lords: اربابان عرب
+ui.start-resources: منابع آغازین
+ui.start-gold: طلای آغازین
+ui.advantage: برتری
+ui.human: انسان
+ui.ai: هوش مصنوعی
+ui.major-human-advantage: برتری زیاد انسان
+ui.human-has-gold: انسان طلا دارد
+ui.computer-has-gold: رایانه طلا دارد
+ui.minor-human-advantage: برتری کم انسان
+ui.no-advantage: بدون برتری
+ui.minor-computer-advantage: برتری کم رایانه
+ui.major-computer-advantage: برتری زیاد رایانه
+ui.starting-goods: کالاهای اولیه
+ui.start-goods: کالاهای آغازین
+ui.resource: منبع
+ui.wood: چوب
+ui.hop: رازک
+ui.stone: سنگ
+ui.iron: آهن
+ui.pitch: قیر
+ui.wheat: گندم
+ui.bread: نان
+ui.cheese: پنیر
+ui.meat: گوشت
+ui.fruit: میوه
+ui.beer: آبجو
+ui.flour: آرد
+ui.bows: کمان
+ui.crossbows: زنبورک
+ui.spears: نیزه
+ui.pikes: نیزهٔ بلند
+ui.maces: گرز
+ui.swords: شمشیر
+ui.leather-armor: زره چرمی
+ui.metal-armor: زره فلزی
+tags.balance: توازن
+tags.economy: اقتصاد

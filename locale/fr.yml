@@ -1,0 +1,61 @@
+ui.crusader-lords: Seigneurs croisés
+ui.start-troops: Troupes de départ
+ui.troop: Unité
+ui.normal-game: Partie normale
+ui.crusader-game: Partie Croisé
+ui.deathmatch-game: Match à mort
+ui.european-archer: Archer européen
+ui.crossbowman: Arbalétrier
+ui.spearman: Lancier
+ui.pikeman: Piquier
+ui.maceman: Massier
+ui.swordsman: Épéiste
+ui.knight: Chevalier
+ui.engineer: Ingénieur
+ui.monk: Moine
+ui.arab-archer: Archer arabe
+ui.slave: Esclave
+ui.slinger: Frondeur
+ui.assassin: Assassin
+ui.horsearcher: Archer à cheval
+ui.arabian-swordsman: Épéiste arabe
+ui.firethrower: Lanceur de feu
+ui.fire-ballista: Baliste incendiaire
+ui.arabian-lords: Seigneurs arabes
+ui.start-resources: Ressources de départ
+ui.start-gold: Or de départ
+ui.advantage: Avantage
+ui.human: Humain
+ui.ai: IA
+ui.major-human-advantage: Grand avantage humain
+ui.human-has-gold: L’humain a de l’or
+ui.computer-has-gold: L’ordinateur a de l’or
+ui.minor-human-advantage: Petit avantage humain
+ui.no-advantage: Aucun avantage
+ui.minor-computer-advantage: Petit avantage ordinateur
+ui.major-computer-advantage: Grand avantage ordinateur
+ui.starting-goods: Marchandises initiales
+ui.start-goods: Marchandises de départ
+ui.resource: Ressource
+ui.wood: Bois
+ui.hop: Houblon
+ui.stone: Pierre
+ui.iron: Fer
+ui.pitch: Poix
+ui.wheat: Blé
+ui.bread: Pain
+ui.cheese: Fromage
+ui.meat: Viande
+ui.fruit: Fruits
+ui.beer: Bière
+ui.flour: Farine
+ui.bows: Arcs
+ui.crossbows: Arbalètes
+ui.spears: Lances
+ui.pikes: Piques
+ui.maces: Masses
+ui.swords: Épées
+ui.leather-armor: Armures de cuir
+ui.metal-armor: Armures métalliques
+tags.balance: Équilibrage
+tags.economy: Économie
