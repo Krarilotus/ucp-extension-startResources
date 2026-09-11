@@ -1,0 +1,9 @@
+files:
+- src: definition.yml
+- src: options.yml
+- src: init.lua
+- src: goods.lua
+- src: troops.lua
+- src: locale
+- src: README.md
+- src: LICENSE

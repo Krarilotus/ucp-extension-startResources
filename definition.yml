@@ -1,6 +1,8 @@
 name: startResources
 display-name: "Start Resources & Troops"
 author: gynt
-version: 1.0.1
+version: 1.0.2
+dependencies:
+  frontend: '>=1.0.16 <2.0.0'
 meta:
   version: 1.0.0

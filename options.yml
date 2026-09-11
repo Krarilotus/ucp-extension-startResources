@@ -2,17 +2,24 @@ meta:
   version: 1.0.0
 options:
 - name: troop-groupbox-crusader
-  display: GroupBox
-  header: Crusader Lords
-  text: Start troops for Human Crusader Lords
-  hasHeader: true
+  display: Group
+  text: Crusader Lords
   category:
   - Start troops
+  table:
+    rowHeader: Troop
+    columns:
+    - name: normal
+      header: Normal game
+    - name: crusader
+      header: Crusader game
+    - name: deathmatch
+      header: Deathmatch game
   children:
-  - name: normal
+  - name: troop-groupbox-crusader-row-0
     display: GroupBox
-    header: Normal game
-    text: Troops for Human Crusader Lords in a normal game
+    header: European archer
+    columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.EuropArcher
       text: European archer
@@ -22,139 +29,6 @@ options:
         max: 1000
         type: number
         value: 5
-    - url: startResources.startTroops.crusader.normal.Crossbowman
-      text: Crossbowman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Spearman
-      text: Spearman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 7
-    - url: startResources.startTroops.crusader.normal.Pikeman
-      text: Pikeman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Maceman
-      text: Maceman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Swordsman
-      text: Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Knight
-      text: Knight
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Engineer
-      text: Engineer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Monk
-      text: Monk
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.ArabArcher
-      text: Arab Archer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Slave
-      text: Slave
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Slinger
-      text: Slinger
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.Assassin
-      text: Assassin
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.HorseArcher
-      text: HorseArcher
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.ArabSwordsman
-      text: Arabian Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.FireThrower
-      text: Firethrower
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.normal.FireBallista
-      text: Fire Ballista
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-  - name: crusader
-    display: GroupBox
-    header: Crusader game
-    text: Troops for Human Crusader Lords in a Crusader game
-    children:
     - url: startResources.startTroops.crusader.crusader.EuropArcher
       text: European archer
       display: Number
@@ -163,139 +37,6 @@ options:
         max: 1000
         type: number
         value: 40
-    - url: startResources.startTroops.crusader.crusader.Crossbowman
-      text: Crossbowman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Spearman
-      text: Spearman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Pikeman
-      text: Pikeman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Maceman
-      text: Maceman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Swordsman
-      text: Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 10
-    - url: startResources.startTroops.crusader.crusader.Knight
-      text: Knight
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 4
-    - url: startResources.startTroops.crusader.crusader.Engineer
-      text: Engineer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Monk
-      text: Monk
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.ArabArcher
-      text: Arab Archer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Slave
-      text: Slave
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Slinger
-      text: Slinger
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.Assassin
-      text: Assassin
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.HorseArcher
-      text: HorseArcher
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.ArabSwordsman
-      text: Arabian Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.FireThrower
-      text: Firethrower
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.crusader.crusader.FireBallista
-      text: Fire Ballista
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-  - name: deathmatch
-    display: GroupBox
-    header: Deathmatch game
-    text: Troops for Human Crusader Lords in a Deathmatch game
-    children:
     - url: startResources.startTroops.crusader.deathmatch.EuropArcher
       text: European archer
       display: Number
@@ -304,8 +45,50 @@ options:
         max: 1000
         type: number
         value: 5
+  - name: troop-groupbox-crusader-row-1
+    display: GroupBox
+    header: Crossbowman
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.Crossbowman
       text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-2
+    display: GroupBox
+    header: Spearman
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Spearman
+      text: Spearman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 7
+    - url: startResources.startTroops.crusader.crusader.Spearman
+      text: Spearman
       display: Number
       contents:
         min: 0
@@ -320,8 +103,50 @@ options:
         max: 1000
         type: number
         value: 7
+  - name: troop-groupbox-crusader-row-3
+    display: GroupBox
+    header: Pikeman
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.Pikeman
       text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-4
+    display: GroupBox
+    header: Maceman
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Maceman
+      text: Maceman
       display: Number
       contents:
         min: 0
@@ -336,6 +161,27 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-5
+    display: GroupBox
+    header: Swordsman
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 10
     - url: startResources.startTroops.crusader.deathmatch.Swordsman
       text: Swordsman
       display: Number
@@ -344,8 +190,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-6
+    display: GroupBox
+    header: Knight
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 4
     - url: startResources.startTroops.crusader.deathmatch.Knight
       text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-7
+    display: GroupBox
+    header: Engineer
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Engineer
+      text: Engineer
       display: Number
       contents:
         min: 0
@@ -360,8 +248,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-8
+    display: GroupBox
+    header: Monk
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.Monk
       text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-9
+    display: GroupBox
+    header: Arab Archer
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.ArabArcher
+      text: Arab Archer
       display: Number
       contents:
         min: 0
@@ -376,8 +306,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-10
+    display: GroupBox
+    header: Slave
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.Slave
       text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-11
+    display: GroupBox
+    header: Slinger
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Slinger
+      text: Slinger
       display: Number
       contents:
         min: 0
@@ -392,8 +364,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-12
+    display: GroupBox
+    header: Assassin
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.Assassin
       text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-13
+    display: GroupBox
+    header: HorseArcher
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.HorseArcher
+      text: HorseArcher
       display: Number
       contents:
         min: 0
@@ -408,6 +422,27 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-14
+    display: GroupBox
+    header: Arabian Swordsman
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.ArabSwordsman
       text: Arabian Swordsman
       display: Number
@@ -416,8 +451,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-crusader-row-15
+    display: GroupBox
+    header: Firethrower
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.crusader.deathmatch.FireThrower
       text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-crusader-row-16
+    display: GroupBox
+    header: Fire Ballista
+    columns: 3
+    children:
+    - url: startResources.startTroops.crusader.normal.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.crusader.crusader.FireBallista
+      text: Fire Ballista
       display: Number
       contents:
         min: 0
@@ -433,17 +510,24 @@ options:
         type: number
         value: 0
 - name: troop-groupbox-arabian
-  display: GroupBox
-  header: Arabian Lords
-  text: Start troops for Human Arabian lords
-  hasHeader: true
+  display: Group
+  text: Arabian Lords
   category:
   - Start troops
+  table:
+    rowHeader: Troop
+    columns:
+    - name: normal
+      header: Normal game
+    - name: crusader
+      header: Crusader game
+    - name: deathmatch
+      header: Deathmatch game
   children:
-  - name: normal
+  - name: troop-groupbox-arabian-row-0
     display: GroupBox
-    header: Normal game
-    text: Troops for Human Arabian Lords in a normal game
+    header: European archer
+    columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.EuropArcher
       text: European archer
@@ -453,141 +537,29 @@ options:
         max: 1000
         type: number
         value: 0
-    - url: startResources.startTroops.arabian.normal.Crossbowman
-      text: Crossbowman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Spearman
-      text: Spearman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Pikeman
-      text: Pikeman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Maceman
-      text: Maceman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Swordsman
-      text: Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Knight
-      text: Knight
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Engineer
-      text: Engineer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Monk
-      text: Monk
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.ArabArcher
-      text: Arab Archer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 6
-    - url: startResources.startTroops.arabian.normal.Slave
-      text: Slave
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 6
-    - url: startResources.startTroops.arabian.normal.Slinger
-      text: Slinger
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.Assassin
-      text: Assassin
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.HorseArcher
-      text: HorseArcher
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.ArabSwordsman
-      text: Arabian Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.FireThrower
-      text: Firethrower
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.normal.FireBallista
-      text: Fire Ballista
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-  - name: crusader
-    display: GroupBox
-    header: Crusader game
-    text: Troops for Human Arabian Lords in a Crusader game
-    children:
     - url: startResources.startTroops.arabian.crusader.EuropArcher
       text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.deathmatch.EuropArcher
+      text: European archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-1
+    display: GroupBox
+    header: Crossbowman
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Crossbowman
+      text: Crossbowman
       display: Number
       contents:
         min: 0
@@ -602,7 +574,20 @@ options:
         max: 1000
         type: number
         value: 0
-    - url: startResources.startTroops.arabian.crusader.Spearman
+    - url: startResources.startTroops.arabian.deathmatch.Crossbowman
+      text: Crossbowman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-2
+    display: GroupBox
+    header: Spearman
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Spearman
       text: Spearman
       display: Number
       contents:
@@ -610,133 +595,8 @@ options:
         max: 1000
         type: number
         value: 0
-    - url: startResources.startTroops.arabian.crusader.Pikeman
-      text: Pikeman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Maceman
-      text: Maceman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Swordsman
-      text: Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Knight
-      text: Knight
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Engineer
-      text: Engineer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Monk
-      text: Monk
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.ArabArcher
-      text: Arab Archer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 50
-    - url: startResources.startTroops.arabian.crusader.Slave
-      text: Slave
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Slinger
-      text: Slinger
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.Assassin
-      text: Assassin
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.HorseArcher
-      text: HorseArcher
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.ArabSwordsman
-      text: Arabian Swordsman
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 10
-    - url: startResources.startTroops.arabian.crusader.FireThrower
-      text: Firethrower
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.crusader.FireBallista
-      text: Fire Ballista
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-  - name: deathmatch
-    display: GroupBox
-    header: Deathmatch game
-    text: Troops for Human Arabian Lords in a Deathmatch game
-    children:
-    - url: startResources.startTroops.arabian.deathmatch.EuropArcher
-      text: European archer
-      display: Number
-      contents:
-        min: 0
-        max: 1000
-        type: number
-        value: 0
-    - url: startResources.startTroops.arabian.deathmatch.Crossbowman
-      text: Crossbowman
+    - url: startResources.startTroops.arabian.crusader.Spearman
+      text: Spearman
       display: Number
       contents:
         min: 0
@@ -751,8 +611,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-3
+    display: GroupBox
+    header: Pikeman
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Pikeman
+      text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.Pikeman
       text: Pikeman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-4
+    display: GroupBox
+    header: Maceman
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Maceman
+      text: Maceman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Maceman
+      text: Maceman
       display: Number
       contents:
         min: 0
@@ -767,8 +669,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-5
+    display: GroupBox
+    header: Swordsman
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Swordsman
+      text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.Swordsman
       text: Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-6
+    display: GroupBox
+    header: Knight
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Knight
+      text: Knight
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Knight
+      text: Knight
       display: Number
       contents:
         min: 0
@@ -783,8 +727,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-7
+    display: GroupBox
+    header: Engineer
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Engineer
+      text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.Engineer
       text: Engineer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-8
+    display: GroupBox
+    header: Monk
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Monk
+      text: Monk
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Monk
+      text: Monk
       display: Number
       contents:
         min: 0
@@ -799,6 +785,27 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-9
+    display: GroupBox
+    header: Arab Archer
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 6
+    - url: startResources.startTroops.arabian.crusader.ArabArcher
+      text: Arab Archer
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 50
     - url: startResources.startTroops.arabian.deathmatch.ArabArcher
       text: Arab Archer
       display: Number
@@ -807,6 +814,27 @@ options:
         max: 1000
         type: number
         value: 6
+  - name: troop-groupbox-arabian-row-10
+    display: GroupBox
+    header: Slave
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 6
+    - url: startResources.startTroops.arabian.crusader.Slave
+      text: Slave
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.Slave
       text: Slave
       display: Number
@@ -815,8 +843,50 @@ options:
         max: 1000
         type: number
         value: 6
+  - name: troop-groupbox-arabian-row-11
+    display: GroupBox
+    header: Slinger
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Slinger
+      text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.Slinger
       text: Slinger
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-12
+    display: GroupBox
+    header: Assassin
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.Assassin
+      text: Assassin
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.Assassin
+      text: Assassin
       display: Number
       contents:
         min: 0
@@ -831,6 +901,27 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-13
+    display: GroupBox
+    header: HorseArcher
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.HorseArcher
+      text: HorseArcher
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.HorseArcher
       text: HorseArcher
       display: Number
@@ -839,6 +930,27 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-14
+    display: GroupBox
+    header: Arabian Swordsman
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.ArabSwordsman
+      text: Arabian Swordsman
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 10
     - url: startResources.startTroops.arabian.deathmatch.ArabSwordsman
       text: Arabian Swordsman
       display: Number
@@ -847,8 +959,50 @@ options:
         max: 1000
         type: number
         value: 0
+  - name: troop-groupbox-arabian-row-15
+    display: GroupBox
+    header: Firethrower
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.FireThrower
+      text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
     - url: startResources.startTroops.arabian.deathmatch.FireThrower
       text: Firethrower
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+  - name: troop-groupbox-arabian-row-16
+    display: GroupBox
+    header: Fire Ballista
+    columns: 3
+    children:
+    - url: startResources.startTroops.arabian.normal.FireBallista
+      text: Fire Ballista
+      display: Number
+      contents:
+        min: 0
+        max: 1000
+        type: number
+        value: 0
+    - url: startResources.startTroops.arabian.crusader.FireBallista
+      text: Fire Ballista
       display: Number
       contents:
         min: 0
@@ -864,17 +1018,23 @@ options:
         type: number
         value: 0
 - name: gold-groupbox-normal
-  display: GroupBox
-  header: Normal game
-  text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
-  hasHeader: true
+  display: Group
+  text: Normal game
   category:
   - Start resources
   - Start gold
+  table:
+    rowHeader: Advantage
+    columns:
+    - name: human
+      header: Human
+    - name: ai
+      header: AI
   children:
-  - display: GroupBox
+  - name: gold-groupbox-normal-row-0
+    display: GroupBox
     header: Major human advantage
-    text: Settings for when the human has an advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.normal.majorHumanAdvantage.human
       text: Human has gold
@@ -892,9 +1052,10 @@ options:
         max: 1000000
         type: number
         value: 2000
-  - display: GroupBox
+  - name: gold-groupbox-normal-row-1
+    display: GroupBox
     header: Minor human advantage
-    text: Settings for when the human has a slight advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.normal.minorHumanAdvantage.human
       text: Human has gold
@@ -912,9 +1073,10 @@ options:
         max: 1000000
         type: number
         value: 2000
-  - display: GroupBox
+  - name: gold-groupbox-normal-row-2
+    display: GroupBox
     header: No advantage
-    text: Settings for when the human has no advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.normal.noAdvantage.human
       text: Human has gold
@@ -932,9 +1094,10 @@ options:
         max: 1000000
         type: number
         value: 2000
-  - display: GroupBox
+  - name: gold-groupbox-normal-row-3
+    display: GroupBox
     header: Minor computer advantage
-    text: Settings for when the computer has a slight advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.normal.minorComputerAdvantage.human
       text: Human has gold
@@ -952,9 +1115,10 @@ options:
         max: 1000000
         type: number
         value: 4000
-  - display: GroupBox
+  - name: gold-groupbox-normal-row-4
+    display: GroupBox
     header: Major computer advantage
-    text: Settings for when the computer has a major advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.normal.majorComputerAdvantage.human
       text: Human has gold
@@ -973,17 +1137,23 @@ options:
         type: number
         value: 8000
 - name: gold-groupbox-crusader
-  display: GroupBox
-  header: Crusader game
-  text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
-  hasHeader: true
+  display: Group
+  text: Crusader game
   category:
   - Start resources
   - Start gold
+  table:
+    rowHeader: Advantage
+    columns:
+    - name: human
+      header: Human
+    - name: ai
+      header: AI
   children:
-  - display: GroupBox
+  - name: gold-groupbox-crusader-row-0
+    display: GroupBox
     header: Major human advantage
-    text: Settings for when the human has an advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.crusader.majorHumanAdvantage.human
       text: Human has gold
@@ -1001,9 +1171,10 @@ options:
         max: 1000000
         type: number
         value: 2000
-  - display: GroupBox
+  - name: gold-groupbox-crusader-row-1
+    display: GroupBox
     header: Minor human advantage
-    text: Settings for when the human has a slight advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.crusader.minorHumanAdvantage.human
       text: Human has gold
@@ -1021,9 +1192,10 @@ options:
         max: 1000000
         type: number
         value: 2000
-  - display: GroupBox
+  - name: gold-groupbox-crusader-row-2
+    display: GroupBox
     header: No advantage
-    text: Settings for when the human has no advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.crusader.noAdvantage.human
       text: Human has gold
@@ -1041,9 +1213,10 @@ options:
         max: 1000000
         type: number
         value: 2000
-  - display: GroupBox
+  - name: gold-groupbox-crusader-row-3
+    display: GroupBox
     header: Minor computer advantage
-    text: Settings for when the computer has a slight advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.crusader.minorComputerAdvantage.human
       text: Human has gold
@@ -1061,9 +1234,10 @@ options:
         max: 1000000
         type: number
         value: 4000
-  - display: GroupBox
+  - name: gold-groupbox-crusader-row-4
+    display: GroupBox
     header: Major computer advantage
-    text: Settings for when the computer has a major advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.crusader.majorComputerAdvantage.human
       text: Human has gold
@@ -1082,17 +1256,23 @@ options:
         type: number
         value: 8000
 - name: gold-groupbox-deathmatch
-  display: GroupBox
-  header: Deathmatch game
-  text: Gold in a Normal game (as opposed to a Crusader or Deathmatch game)
-  hasHeader: true
+  display: Group
+  text: Deathmatch game
   category:
   - Start resources
   - Start gold
+  table:
+    rowHeader: Advantage
+    columns:
+    - name: human
+      header: Human
+    - name: ai
+      header: AI
   children:
-  - display: GroupBox
+  - name: gold-groupbox-deathmatch-row-0
+    display: GroupBox
     header: Major human advantage
-    text: Settings for when the human has an advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.deathmatch.majorHumanAdvantage.human
       text: Human has gold
@@ -1110,9 +1290,10 @@ options:
         max: 1000000
         type: number
         value: 3000
-  - display: GroupBox
+  - name: gold-groupbox-deathmatch-row-1
+    display: GroupBox
     header: Minor human advantage
-    text: Settings for when the human has a slight advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.deathmatch.minorHumanAdvantage.human
       text: Human has gold
@@ -1130,9 +1311,10 @@ options:
         max: 1000000
         type: number
         value: 7000
-  - display: GroupBox
+  - name: gold-groupbox-deathmatch-row-2
+    display: GroupBox
     header: No advantage
-    text: Settings for when the human has no advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.deathmatch.noAdvantage.human
       text: Human has gold
@@ -1150,9 +1332,10 @@ options:
         max: 1000000
         type: number
         value: 10000
-  - display: GroupBox
+  - name: gold-groupbox-deathmatch-row-3
+    display: GroupBox
     header: Minor computer advantage
-    text: Settings for when the computer has a slight advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.deathmatch.minorComputerAdvantage.human
       text: Human has gold
@@ -1170,9 +1353,10 @@ options:
         max: 1000000
         type: number
         value: 20000
-  - display: GroupBox
+  - name: gold-groupbox-deathmatch-row-4
+    display: GroupBox
     header: Major computer advantage
-    text: Settings for when the computer has a major advantage (left-most option in the Skirmish menu)
+    columns: 2
     children:
     - url: startResources.startGold.deathmatch.majorComputerAdvantage.human
       text: Human has gold
@@ -1190,511 +1374,599 @@ options:
         max: 1000000
         type: number
         value: 40000
-- name: goods-groupbox-normal
-  display: GroupBox
-  header: Normal game
-  text: Goods in a Normal game (as opposed to a Crusader or Deathmatch game)
-  hasHeader: true
+- name: starting-goods
+  display: Group
+  text: Starting goods
   category:
   - Start resources
   - Start goods
+  table:
+    rowHeader: Resource
+    columns:
+    - name: goods-groupbox-normal
+      header: Normal game
+    - name: goods-groupbox-crusader
+      header: Crusader game
+    - name: goods-groupbox-deathmatch
+      header: Deathmatch game
   children:
-  - url: startResources.startGoods.normal.wood
-    text: Wood
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 100
-  - url: startResources.startGoods.normal.hop
-    text: Hop
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.stone
-    text: Stone
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 50
-  - url: startResources.startGoods.normal.iron
-    text: Iron
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.pitch
-    text: Pitch
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.wheat
-    text: Wheat
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.bread
-    text: Bread
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 60
-  - url: startResources.startGoods.normal.cheese
-    text: Cheese
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.meat
-    text: Meat
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.fruit
-    text: Fruit
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.beer
-    text: Beer
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.flour
-    text: Flour
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.bows
-    text: Bows
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.crossbows
-    text: Crossbows
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.spears
-    text: Spears
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.pikes
-    text: Pikes
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.maces
-    text: Maces
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.swords
-    text: Swords
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.leatherarmor
-    text: Leather armor
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.normal.metalarmor
-    text: Metal armor
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-- name: goods-groupbox-crusader
-  display: GroupBox
-  header: Crusader game
-  text: Goods in a Crusader game (as opposed to a Normal or Deathmatch game)
-  hasHeader: true
-  category:
-  - Start resources
-  - Start goods
-  children:
-  - url: startResources.startGoods.crusader.wood
-    text: Wood
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 100
-  - url: startResources.startGoods.crusader.hop
-    text: Hop
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.stone
-    text: Stone
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 50
-  - url: startResources.startGoods.crusader.iron
-    text: Iron
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.pitch
-    text: Pitch
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.wheat
-    text: Wheat
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.bread
-    text: Bread
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 60
-  - url: startResources.startGoods.crusader.cheese
-    text: Cheese
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.meat
-    text: Meat
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.fruit
-    text: Fruit
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.beer
-    text: Beer
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.flour
-    text: Flour
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.bows
-    text: Bows
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.crossbows
-    text: Crossbows
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.spears
-    text: Spears
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.pikes
-    text: Pikes
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.maces
-    text: Maces
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.swords
-    text: Swords
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.leatherarmor
-    text: Leather armor
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.crusader.metalarmor
-    text: Metal armor
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-- name: goods-groupbox-deathmatch
-  display: GroupBox
-  header: Deathmatch game
-  text: Goods in a Normal game (as opposed to a Crusader or Normal game)
-  hasHeader: true
-  category:
-  - Start resources
-  - Start goods
-  children:
-  - url: startResources.startGoods.deathmatch.wood
-    text: Wood
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 150
-  - url: startResources.startGoods.deathmatch.hop
-    text: Hop
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 20
-  - url: startResources.startGoods.deathmatch.stone
-    text: Stone
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 150
-  - url: startResources.startGoods.deathmatch.iron
-    text: Iron
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 25
-  - url: startResources.startGoods.deathmatch.pitch
-    text: Pitch
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 48
-  - url: startResources.startGoods.deathmatch.wheat
-    text: Wheat
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 25
-  - url: startResources.startGoods.deathmatch.bread
-    text: Bread
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 200
-  - url: startResources.startGoods.deathmatch.cheese
-    text: Cheese
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.meat
-    text: Meat
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.fruit
-    text: Fruit
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.beer
-    text: Beer
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 10
-  - url: startResources.startGoods.deathmatch.flour
-    text: Flour
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.bows
-    text: Bows
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.crossbows
-    text: Crossbows
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.spears
-    text: Spears
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.pikes
-    text: Pikes
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.maces
-    text: Maces
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.swords
-    text: Swords
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.leatherarmor
-    text: Leather armor
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-  - url: startResources.startGoods.deathmatch.metalarmor
-    text: Metal armor
-    display: Number
-    contents:
-      min: 0
-      max: 1000000
-      type: number
-      value: 0
-      
+  - name: starting-goods-row-0
+    display: GroupBox
+    header: Wood
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.wood
+      text: Wood
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 100
+    - url: startResources.startGoods.crusader.wood
+      text: Wood
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 100
+    - url: startResources.startGoods.deathmatch.wood
+      text: Wood
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 150
+  - name: starting-goods-row-1
+    display: GroupBox
+    header: Hop
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.hop
+      text: Hop
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.hop
+      text: Hop
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.hop
+      text: Hop
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 20
+  - name: starting-goods-row-2
+    display: GroupBox
+    header: Stone
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.stone
+      text: Stone
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 50
+    - url: startResources.startGoods.crusader.stone
+      text: Stone
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 50
+    - url: startResources.startGoods.deathmatch.stone
+      text: Stone
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 150
+  - name: starting-goods-row-3
+    display: GroupBox
+    header: Iron
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.iron
+      text: Iron
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.iron
+      text: Iron
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.iron
+      text: Iron
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 25
+  - name: starting-goods-row-4
+    display: GroupBox
+    header: Pitch
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.pitch
+      text: Pitch
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.pitch
+      text: Pitch
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.pitch
+      text: Pitch
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 48
+  - name: starting-goods-row-5
+    display: GroupBox
+    header: Wheat
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.wheat
+      text: Wheat
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.wheat
+      text: Wheat
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.wheat
+      text: Wheat
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 25
+  - name: starting-goods-row-6
+    display: GroupBox
+    header: Bread
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.bread
+      text: Bread
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 60
+    - url: startResources.startGoods.crusader.bread
+      text: Bread
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 60
+    - url: startResources.startGoods.deathmatch.bread
+      text: Bread
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 200
+  - name: starting-goods-row-7
+    display: GroupBox
+    header: Cheese
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.cheese
+      text: Cheese
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.cheese
+      text: Cheese
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.cheese
+      text: Cheese
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-8
+    display: GroupBox
+    header: Meat
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.meat
+      text: Meat
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.meat
+      text: Meat
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.meat
+      text: Meat
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-9
+    display: GroupBox
+    header: Fruit
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.fruit
+      text: Fruit
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.fruit
+      text: Fruit
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.fruit
+      text: Fruit
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-10
+    display: GroupBox
+    header: Beer
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.beer
+      text: Beer
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.beer
+      text: Beer
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.beer
+      text: Beer
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 10
+  - name: starting-goods-row-11
+    display: GroupBox
+    header: Flour
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.flour
+      text: Flour
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.flour
+      text: Flour
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.flour
+      text: Flour
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-12
+    display: GroupBox
+    header: Bows
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.bows
+      text: Bows
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.bows
+      text: Bows
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.bows
+      text: Bows
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-13
+    display: GroupBox
+    header: Crossbows
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.crossbows
+      text: Crossbows
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.crossbows
+      text: Crossbows
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.crossbows
+      text: Crossbows
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-14
+    display: GroupBox
+    header: Spears
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.spears
+      text: Spears
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.spears
+      text: Spears
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.spears
+      text: Spears
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-15
+    display: GroupBox
+    header: Pikes
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.pikes
+      text: Pikes
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.pikes
+      text: Pikes
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.pikes
+      text: Pikes
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-16
+    display: GroupBox
+    header: Maces
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.maces
+      text: Maces
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.maces
+      text: Maces
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.maces
+      text: Maces
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-17
+    display: GroupBox
+    header: Swords
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.swords
+      text: Swords
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.swords
+      text: Swords
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.swords
+      text: Swords
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-18
+    display: GroupBox
+    header: Leather armor
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.leatherarmor
+      text: Leather armor
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.leatherarmor
+      text: Leather armor
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.leatherarmor
+      text: Leather armor
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+  - name: starting-goods-row-19
+    display: GroupBox
+    header: Metal armor
+    columns: 3
+    children:
+    - url: startResources.startGoods.normal.metalarmor
+      text: Metal armor
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.crusader.metalarmor
+      text: Metal armor
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
+    - url: startResources.startGoods.deathmatch.metalarmor
+      text: Metal armor
+      display: Number
+      contents:
+        min: 0
+        max: 1000000
+        type: number
+        value: 0
