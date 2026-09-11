@@ -1,0 +1,61 @@
+ui.crusader-lords: Haçlı lordları
+ui.start-troops: Başlangıç birlikleri
+ui.troop: Birim
+ui.normal-game: Normal oyun
+ui.crusader-game: Haçlı oyunu
+ui.deathmatch-game: Ölüm maçı
+ui.european-archer: Avrupalı okçu
+ui.crossbowman: Arbaletçi
+ui.spearman: Mızrakçı
+ui.pikeman: Kargıcı
+ui.maceman: Gürzlü asker
+ui.swordsman: Kılıçlı asker
+ui.knight: Şövalye
+ui.engineer: Mühendis
+ui.monk: Keşiş
+ui.arab-archer: Arap okçu
+ui.slave: Köle
+ui.slinger: Sapancı
+ui.assassin: Suikastçı
+ui.horsearcher: Atlı okçu
+ui.arabian-swordsman: Arap kılıçlı asker
+ui.firethrower: Ateş atıcı
+ui.fire-ballista: Ateş balistası
+ui.arabian-lords: Arap lordları
+ui.start-resources: Başlangıç kaynakları
+ui.start-gold: Başlangıç altını
+ui.advantage: Avantaj
+ui.human: İnsan
+ui.ai: Yapay zekâ
+ui.major-human-advantage: Büyük insan avantajı
+ui.human-has-gold: İnsanın altını var
+ui.computer-has-gold: Bilgisayarın altını var
+ui.minor-human-advantage: Küçük insan avantajı
+ui.no-advantage: Avantaj yok
+ui.minor-computer-advantage: Küçük bilgisayar avantajı
+ui.major-computer-advantage: Büyük bilgisayar avantajı
+ui.starting-goods: İlk mallar
+ui.start-goods: Başlangıç malları
+ui.resource: Kaynak
+ui.wood: Odun
+ui.hop: Şerbetçiotu
+ui.stone: Taş
+ui.iron: Demir
+ui.pitch: Zift
+ui.wheat: Buğday
+ui.bread: Ekmek
+ui.cheese: Peynir
+ui.meat: Et
+ui.fruit: Meyve
+ui.beer: Bira
+ui.flour: Un
+ui.bows: Yaylar
+ui.crossbows: Arbaletler
+ui.spears: Mızraklar
+ui.pikes: Kargılar
+ui.maces: Gürzler
+ui.swords: Kılıçlar
+ui.leather-armor: Deri zırhlar
+ui.metal-armor: Metal zırhlar
+tags.balance: Denge
+tags.economy: Ekonomi

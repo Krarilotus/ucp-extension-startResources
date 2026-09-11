@@ -9,8 +9,3 @@ meta:
 tags:
 - balance
 - economy
-capabilities:
-  files: false
-  code: true
-  configuration: false
-  options: true

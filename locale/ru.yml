@@ -1,0 +1,61 @@
+ui.crusader-lords: Лорды-крестоносцы
+ui.start-troops: Начальные войска
+ui.troop: Воин
+ui.normal-game: Обычная игра
+ui.crusader-game: Крестоносец
+ui.deathmatch-game: Бой насмерть
+ui.european-archer: Европейский лучник
+ui.crossbowman: Арбалетчик
+ui.spearman: Копейщик
+ui.pikeman: Пикинёр
+ui.maceman: Булавоносец
+ui.swordsman: Мечник
+ui.knight: Рыцарь
+ui.engineer: Инженер
+ui.monk: Монах
+ui.arab-archer: Арабский лучник
+ui.slave: Раб
+ui.slinger: Пращник
+ui.assassin: Ассасин
+ui.horsearcher: Конный лучник
+ui.arabian-swordsman: Арабский мечник
+ui.firethrower: Огнеметатель
+ui.fire-ballista: Огненная баллиста
+ui.arabian-lords: Арабские лорды
+ui.start-resources: Начальные ресурсы
+ui.start-gold: Начальное золото
+ui.advantage: Преимущество
+ui.human: Человек
+ui.ai: ИИ
+ui.major-human-advantage: Большое преимущество человека
+ui.human-has-gold: У человека есть золото
+ui.computer-has-gold: У компьютера есть золото
+ui.minor-human-advantage: Малое преимущество человека
+ui.no-advantage: Без преимущества
+ui.minor-computer-advantage: Малое преимущество компьютера
+ui.major-computer-advantage: Большое преимущество компьютера
+ui.starting-goods: Начальные товары
+ui.start-goods: Товары на старте
+ui.resource: Ресурс
+ui.wood: Дерево
+ui.hop: Хмель
+ui.stone: Камень
+ui.iron: Железо
+ui.pitch: Смола
+ui.wheat: Пшеница
+ui.bread: Хлеб
+ui.cheese: Сыр
+ui.meat: Мясо
+ui.fruit: Фрукты
+ui.beer: Пиво
+ui.flour: Мука
+ui.bows: Луки
+ui.crossbows: Арбалеты
+ui.spears: Копья
+ui.pikes: Пики
+ui.maces: Булавы
+ui.swords: Мечи
+ui.leather-armor: Кожаные доспехи
+ui.metal-armor: Металлические доспехи
+tags.balance: Баланс
+tags.economy: Экономика

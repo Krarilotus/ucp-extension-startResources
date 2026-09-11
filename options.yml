@@ -3,26 +3,26 @@ meta:
 options:
 - name: troop-groupbox-crusader
   display: Group
-  text: Crusader Lords
+  text: '{{ui.crusader-lords}}'
   category:
-  - Start troops
+  - '{{ui.start-troops}}'
   table:
-    rowHeader: Troop
+    rowHeader: '{{ui.troop}}'
     columns:
     - name: normal
-      header: Normal game
+      header: '{{ui.normal-game}}'
     - name: crusader
-      header: Crusader game
+      header: '{{ui.crusader-game}}'
     - name: deathmatch
-      header: Deathmatch game
+      header: '{{ui.deathmatch-game}}'
   children:
   - name: troop-groupbox-crusader-row-0
     display: GroupBox
-    header: European archer
+    header: '{{ui.european-archer}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.EuropArcher
-      text: European archer
+      text: '{{ui.european-archer}}'
       display: Number
       contents:
         min: 0
@@ -30,7 +30,7 @@ options:
         type: number
         value: 5
     - url: startResources.startTroops.crusader.crusader.EuropArcher
-      text: European archer
+      text: '{{ui.european-archer}}'
       display: Number
       contents:
         min: 0
@@ -38,7 +38,7 @@ options:
         type: number
         value: 40
     - url: startResources.startTroops.crusader.deathmatch.EuropArcher
-      text: European archer
+      text: '{{ui.european-archer}}'
       display: Number
       contents:
         min: 0
@@ -47,11 +47,11 @@ options:
         value: 5
   - name: troop-groupbox-crusader-row-1
     display: GroupBox
-    header: Crossbowman
+    header: '{{ui.crossbowman}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Crossbowman
-      text: Crossbowman
+      text: '{{ui.crossbowman}}'
       display: Number
       contents:
         min: 0
@@ -59,7 +59,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Crossbowman
-      text: Crossbowman
+      text: '{{ui.crossbowman}}'
       display: Number
       contents:
         min: 0
@@ -67,7 +67,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Crossbowman
-      text: Crossbowman
+      text: '{{ui.crossbowman}}'
       display: Number
       contents:
         min: 0
@@ -76,11 +76,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-2
     display: GroupBox
-    header: Spearman
+    header: '{{ui.spearman}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Spearman
-      text: Spearman
+      text: '{{ui.spearman}}'
       display: Number
       contents:
         min: 0
@@ -88,7 +88,7 @@ options:
         type: number
         value: 7
     - url: startResources.startTroops.crusader.crusader.Spearman
-      text: Spearman
+      text: '{{ui.spearman}}'
       display: Number
       contents:
         min: 0
@@ -96,7 +96,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Spearman
-      text: Spearman
+      text: '{{ui.spearman}}'
       display: Number
       contents:
         min: 0
@@ -105,11 +105,11 @@ options:
         value: 7
   - name: troop-groupbox-crusader-row-3
     display: GroupBox
-    header: Pikeman
+    header: '{{ui.pikeman}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Pikeman
-      text: Pikeman
+      text: '{{ui.pikeman}}'
       display: Number
       contents:
         min: 0
@@ -117,7 +117,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Pikeman
-      text: Pikeman
+      text: '{{ui.pikeman}}'
       display: Number
       contents:
         min: 0
@@ -125,7 +125,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Pikeman
-      text: Pikeman
+      text: '{{ui.pikeman}}'
       display: Number
       contents:
         min: 0
@@ -134,11 +134,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-4
     display: GroupBox
-    header: Maceman
+    header: '{{ui.maceman}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Maceman
-      text: Maceman
+      text: '{{ui.maceman}}'
       display: Number
       contents:
         min: 0
@@ -146,7 +146,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Maceman
-      text: Maceman
+      text: '{{ui.maceman}}'
       display: Number
       contents:
         min: 0
@@ -154,7 +154,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Maceman
-      text: Maceman
+      text: '{{ui.maceman}}'
       display: Number
       contents:
         min: 0
@@ -163,11 +163,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-5
     display: GroupBox
-    header: Swordsman
+    header: '{{ui.swordsman}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Swordsman
-      text: Swordsman
+      text: '{{ui.swordsman}}'
       display: Number
       contents:
         min: 0
@@ -175,7 +175,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Swordsman
-      text: Swordsman
+      text: '{{ui.swordsman}}'
       display: Number
       contents:
         min: 0
@@ -183,7 +183,7 @@ options:
         type: number
         value: 10
     - url: startResources.startTroops.crusader.deathmatch.Swordsman
-      text: Swordsman
+      text: '{{ui.swordsman}}'
       display: Number
       contents:
         min: 0
@@ -192,11 +192,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-6
     display: GroupBox
-    header: Knight
+    header: '{{ui.knight}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Knight
-      text: Knight
+      text: '{{ui.knight}}'
       display: Number
       contents:
         min: 0
@@ -204,7 +204,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Knight
-      text: Knight
+      text: '{{ui.knight}}'
       display: Number
       contents:
         min: 0
@@ -212,7 +212,7 @@ options:
         type: number
         value: 4
     - url: startResources.startTroops.crusader.deathmatch.Knight
-      text: Knight
+      text: '{{ui.knight}}'
       display: Number
       contents:
         min: 0
@@ -221,11 +221,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-7
     display: GroupBox
-    header: Engineer
+    header: '{{ui.engineer}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Engineer
-      text: Engineer
+      text: '{{ui.engineer}}'
       display: Number
       contents:
         min: 0
@@ -233,7 +233,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Engineer
-      text: Engineer
+      text: '{{ui.engineer}}'
       display: Number
       contents:
         min: 0
@@ -241,7 +241,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Engineer
-      text: Engineer
+      text: '{{ui.engineer}}'
       display: Number
       contents:
         min: 0
@@ -250,11 +250,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-8
     display: GroupBox
-    header: Monk
+    header: '{{ui.monk}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Monk
-      text: Monk
+      text: '{{ui.monk}}'
       display: Number
       contents:
         min: 0
@@ -262,7 +262,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Monk
-      text: Monk
+      text: '{{ui.monk}}'
       display: Number
       contents:
         min: 0
@@ -270,7 +270,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Monk
-      text: Monk
+      text: '{{ui.monk}}'
       display: Number
       contents:
         min: 0
@@ -279,11 +279,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-9
     display: GroupBox
-    header: Arab Archer
+    header: '{{ui.arab-archer}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.ArabArcher
-      text: Arab Archer
+      text: '{{ui.arab-archer}}'
       display: Number
       contents:
         min: 0
@@ -291,7 +291,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.ArabArcher
-      text: Arab Archer
+      text: '{{ui.arab-archer}}'
       display: Number
       contents:
         min: 0
@@ -299,7 +299,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.ArabArcher
-      text: Arab Archer
+      text: '{{ui.arab-archer}}'
       display: Number
       contents:
         min: 0
@@ -308,11 +308,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-10
     display: GroupBox
-    header: Slave
+    header: '{{ui.slave}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Slave
-      text: Slave
+      text: '{{ui.slave}}'
       display: Number
       contents:
         min: 0
@@ -320,7 +320,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Slave
-      text: Slave
+      text: '{{ui.slave}}'
       display: Number
       contents:
         min: 0
@@ -328,7 +328,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Slave
-      text: Slave
+      text: '{{ui.slave}}'
       display: Number
       contents:
         min: 0
@@ -337,11 +337,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-11
     display: GroupBox
-    header: Slinger
+    header: '{{ui.slinger}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Slinger
-      text: Slinger
+      text: '{{ui.slinger}}'
       display: Number
       contents:
         min: 0
@@ -349,7 +349,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Slinger
-      text: Slinger
+      text: '{{ui.slinger}}'
       display: Number
       contents:
         min: 0
@@ -357,7 +357,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Slinger
-      text: Slinger
+      text: '{{ui.slinger}}'
       display: Number
       contents:
         min: 0
@@ -366,11 +366,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-12
     display: GroupBox
-    header: Assassin
+    header: '{{ui.assassin}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.Assassin
-      text: Assassin
+      text: '{{ui.assassin}}'
       display: Number
       contents:
         min: 0
@@ -378,7 +378,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.Assassin
-      text: Assassin
+      text: '{{ui.assassin}}'
       display: Number
       contents:
         min: 0
@@ -386,7 +386,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.Assassin
-      text: Assassin
+      text: '{{ui.assassin}}'
       display: Number
       contents:
         min: 0
@@ -395,11 +395,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-13
     display: GroupBox
-    header: HorseArcher
+    header: '{{ui.horsearcher}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.HorseArcher
-      text: HorseArcher
+      text: '{{ui.horsearcher}}'
       display: Number
       contents:
         min: 0
@@ -407,7 +407,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.HorseArcher
-      text: HorseArcher
+      text: '{{ui.horsearcher}}'
       display: Number
       contents:
         min: 0
@@ -415,7 +415,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.HorseArcher
-      text: HorseArcher
+      text: '{{ui.horsearcher}}'
       display: Number
       contents:
         min: 0
@@ -424,11 +424,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-14
     display: GroupBox
-    header: Arabian Swordsman
+    header: '{{ui.arabian-swordsman}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.ArabSwordsman
-      text: Arabian Swordsman
+      text: '{{ui.arabian-swordsman}}'
       display: Number
       contents:
         min: 0
@@ -436,7 +436,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.ArabSwordsman
-      text: Arabian Swordsman
+      text: '{{ui.arabian-swordsman}}'
       display: Number
       contents:
         min: 0
@@ -444,7 +444,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.ArabSwordsman
-      text: Arabian Swordsman
+      text: '{{ui.arabian-swordsman}}'
       display: Number
       contents:
         min: 0
@@ -453,11 +453,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-15
     display: GroupBox
-    header: Firethrower
+    header: '{{ui.firethrower}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.FireThrower
-      text: Firethrower
+      text: '{{ui.firethrower}}'
       display: Number
       contents:
         min: 0
@@ -465,7 +465,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.FireThrower
-      text: Firethrower
+      text: '{{ui.firethrower}}'
       display: Number
       contents:
         min: 0
@@ -473,7 +473,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.FireThrower
-      text: Firethrower
+      text: '{{ui.firethrower}}'
       display: Number
       contents:
         min: 0
@@ -482,11 +482,11 @@ options:
         value: 0
   - name: troop-groupbox-crusader-row-16
     display: GroupBox
-    header: Fire Ballista
+    header: '{{ui.fire-ballista}}'
     columns: 3
     children:
     - url: startResources.startTroops.crusader.normal.FireBallista
-      text: Fire Ballista
+      text: '{{ui.fire-ballista}}'
       display: Number
       contents:
         min: 0
@@ -494,7 +494,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.crusader.FireBallista
-      text: Fire Ballista
+      text: '{{ui.fire-ballista}}'
       display: Number
       contents:
         min: 0
@@ -502,7 +502,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.crusader.deathmatch.FireBallista
-      text: Fire Ballista
+      text: '{{ui.fire-ballista}}'
       display: Number
       contents:
         min: 0
@@ -511,26 +511,26 @@ options:
         value: 0
 - name: troop-groupbox-arabian
   display: Group
-  text: Arabian Lords
+  text: '{{ui.arabian-lords}}'
   category:
-  - Start troops
+  - '{{ui.start-troops}}'
   table:
-    rowHeader: Troop
+    rowHeader: '{{ui.troop}}'
     columns:
     - name: normal
-      header: Normal game
+      header: '{{ui.normal-game}}'
     - name: crusader
-      header: Crusader game
+      header: '{{ui.crusader-game}}'
     - name: deathmatch
-      header: Deathmatch game
+      header: '{{ui.deathmatch-game}}'
   children:
   - name: troop-groupbox-arabian-row-0
     display: GroupBox
-    header: European archer
+    header: '{{ui.european-archer}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.EuropArcher
-      text: European archer
+      text: '{{ui.european-archer}}'
       display: Number
       contents:
         min: 0
@@ -538,7 +538,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.EuropArcher
-      text: European archer
+      text: '{{ui.european-archer}}'
       display: Number
       contents:
         min: 0
@@ -546,7 +546,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.EuropArcher
-      text: European archer
+      text: '{{ui.european-archer}}'
       display: Number
       contents:
         min: 0
@@ -555,11 +555,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-1
     display: GroupBox
-    header: Crossbowman
+    header: '{{ui.crossbowman}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Crossbowman
-      text: Crossbowman
+      text: '{{ui.crossbowman}}'
       display: Number
       contents:
         min: 0
@@ -567,7 +567,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Crossbowman
-      text: Crossbowman
+      text: '{{ui.crossbowman}}'
       display: Number
       contents:
         min: 0
@@ -575,7 +575,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Crossbowman
-      text: Crossbowman
+      text: '{{ui.crossbowman}}'
       display: Number
       contents:
         min: 0
@@ -584,11 +584,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-2
     display: GroupBox
-    header: Spearman
+    header: '{{ui.spearman}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Spearman
-      text: Spearman
+      text: '{{ui.spearman}}'
       display: Number
       contents:
         min: 0
@@ -596,7 +596,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Spearman
-      text: Spearman
+      text: '{{ui.spearman}}'
       display: Number
       contents:
         min: 0
@@ -604,7 +604,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Spearman
-      text: Spearman
+      text: '{{ui.spearman}}'
       display: Number
       contents:
         min: 0
@@ -613,11 +613,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-3
     display: GroupBox
-    header: Pikeman
+    header: '{{ui.pikeman}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Pikeman
-      text: Pikeman
+      text: '{{ui.pikeman}}'
       display: Number
       contents:
         min: 0
@@ -625,7 +625,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Pikeman
-      text: Pikeman
+      text: '{{ui.pikeman}}'
       display: Number
       contents:
         min: 0
@@ -633,7 +633,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Pikeman
-      text: Pikeman
+      text: '{{ui.pikeman}}'
       display: Number
       contents:
         min: 0
@@ -642,11 +642,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-4
     display: GroupBox
-    header: Maceman
+    header: '{{ui.maceman}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Maceman
-      text: Maceman
+      text: '{{ui.maceman}}'
       display: Number
       contents:
         min: 0
@@ -654,7 +654,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Maceman
-      text: Maceman
+      text: '{{ui.maceman}}'
       display: Number
       contents:
         min: 0
@@ -662,7 +662,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Maceman
-      text: Maceman
+      text: '{{ui.maceman}}'
       display: Number
       contents:
         min: 0
@@ -671,11 +671,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-5
     display: GroupBox
-    header: Swordsman
+    header: '{{ui.swordsman}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Swordsman
-      text: Swordsman
+      text: '{{ui.swordsman}}'
       display: Number
       contents:
         min: 0
@@ -683,7 +683,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Swordsman
-      text: Swordsman
+      text: '{{ui.swordsman}}'
       display: Number
       contents:
         min: 0
@@ -691,7 +691,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Swordsman
-      text: Swordsman
+      text: '{{ui.swordsman}}'
       display: Number
       contents:
         min: 0
@@ -700,11 +700,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-6
     display: GroupBox
-    header: Knight
+    header: '{{ui.knight}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Knight
-      text: Knight
+      text: '{{ui.knight}}'
       display: Number
       contents:
         min: 0
@@ -712,7 +712,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Knight
-      text: Knight
+      text: '{{ui.knight}}'
       display: Number
       contents:
         min: 0
@@ -720,7 +720,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Knight
-      text: Knight
+      text: '{{ui.knight}}'
       display: Number
       contents:
         min: 0
@@ -729,11 +729,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-7
     display: GroupBox
-    header: Engineer
+    header: '{{ui.engineer}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Engineer
-      text: Engineer
+      text: '{{ui.engineer}}'
       display: Number
       contents:
         min: 0
@@ -741,7 +741,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Engineer
-      text: Engineer
+      text: '{{ui.engineer}}'
       display: Number
       contents:
         min: 0
@@ -749,7 +749,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Engineer
-      text: Engineer
+      text: '{{ui.engineer}}'
       display: Number
       contents:
         min: 0
@@ -758,11 +758,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-8
     display: GroupBox
-    header: Monk
+    header: '{{ui.monk}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Monk
-      text: Monk
+      text: '{{ui.monk}}'
       display: Number
       contents:
         min: 0
@@ -770,7 +770,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Monk
-      text: Monk
+      text: '{{ui.monk}}'
       display: Number
       contents:
         min: 0
@@ -778,7 +778,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Monk
-      text: Monk
+      text: '{{ui.monk}}'
       display: Number
       contents:
         min: 0
@@ -787,11 +787,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-9
     display: GroupBox
-    header: Arab Archer
+    header: '{{ui.arab-archer}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.ArabArcher
-      text: Arab Archer
+      text: '{{ui.arab-archer}}'
       display: Number
       contents:
         min: 0
@@ -799,7 +799,7 @@ options:
         type: number
         value: 6
     - url: startResources.startTroops.arabian.crusader.ArabArcher
-      text: Arab Archer
+      text: '{{ui.arab-archer}}'
       display: Number
       contents:
         min: 0
@@ -807,7 +807,7 @@ options:
         type: number
         value: 50
     - url: startResources.startTroops.arabian.deathmatch.ArabArcher
-      text: Arab Archer
+      text: '{{ui.arab-archer}}'
       display: Number
       contents:
         min: 0
@@ -816,11 +816,11 @@ options:
         value: 6
   - name: troop-groupbox-arabian-row-10
     display: GroupBox
-    header: Slave
+    header: '{{ui.slave}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Slave
-      text: Slave
+      text: '{{ui.slave}}'
       display: Number
       contents:
         min: 0
@@ -828,7 +828,7 @@ options:
         type: number
         value: 6
     - url: startResources.startTroops.arabian.crusader.Slave
-      text: Slave
+      text: '{{ui.slave}}'
       display: Number
       contents:
         min: 0
@@ -836,7 +836,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Slave
-      text: Slave
+      text: '{{ui.slave}}'
       display: Number
       contents:
         min: 0
@@ -845,11 +845,11 @@ options:
         value: 6
   - name: troop-groupbox-arabian-row-11
     display: GroupBox
-    header: Slinger
+    header: '{{ui.slinger}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Slinger
-      text: Slinger
+      text: '{{ui.slinger}}'
       display: Number
       contents:
         min: 0
@@ -857,7 +857,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Slinger
-      text: Slinger
+      text: '{{ui.slinger}}'
       display: Number
       contents:
         min: 0
@@ -865,7 +865,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Slinger
-      text: Slinger
+      text: '{{ui.slinger}}'
       display: Number
       contents:
         min: 0
@@ -874,11 +874,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-12
     display: GroupBox
-    header: Assassin
+    header: '{{ui.assassin}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.Assassin
-      text: Assassin
+      text: '{{ui.assassin}}'
       display: Number
       contents:
         min: 0
@@ -886,7 +886,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.Assassin
-      text: Assassin
+      text: '{{ui.assassin}}'
       display: Number
       contents:
         min: 0
@@ -894,7 +894,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.Assassin
-      text: Assassin
+      text: '{{ui.assassin}}'
       display: Number
       contents:
         min: 0
@@ -903,11 +903,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-13
     display: GroupBox
-    header: HorseArcher
+    header: '{{ui.horsearcher}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.HorseArcher
-      text: HorseArcher
+      text: '{{ui.horsearcher}}'
       display: Number
       contents:
         min: 0
@@ -915,7 +915,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.HorseArcher
-      text: HorseArcher
+      text: '{{ui.horsearcher}}'
       display: Number
       contents:
         min: 0
@@ -923,7 +923,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.HorseArcher
-      text: HorseArcher
+      text: '{{ui.horsearcher}}'
       display: Number
       contents:
         min: 0
@@ -932,11 +932,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-14
     display: GroupBox
-    header: Arabian Swordsman
+    header: '{{ui.arabian-swordsman}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.ArabSwordsman
-      text: Arabian Swordsman
+      text: '{{ui.arabian-swordsman}}'
       display: Number
       contents:
         min: 0
@@ -944,7 +944,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.ArabSwordsman
-      text: Arabian Swordsman
+      text: '{{ui.arabian-swordsman}}'
       display: Number
       contents:
         min: 0
@@ -952,7 +952,7 @@ options:
         type: number
         value: 10
     - url: startResources.startTroops.arabian.deathmatch.ArabSwordsman
-      text: Arabian Swordsman
+      text: '{{ui.arabian-swordsman}}'
       display: Number
       contents:
         min: 0
@@ -961,11 +961,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-15
     display: GroupBox
-    header: Firethrower
+    header: '{{ui.firethrower}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.FireThrower
-      text: Firethrower
+      text: '{{ui.firethrower}}'
       display: Number
       contents:
         min: 0
@@ -973,7 +973,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.FireThrower
-      text: Firethrower
+      text: '{{ui.firethrower}}'
       display: Number
       contents:
         min: 0
@@ -981,7 +981,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.FireThrower
-      text: Firethrower
+      text: '{{ui.firethrower}}'
       display: Number
       contents:
         min: 0
@@ -990,11 +990,11 @@ options:
         value: 0
   - name: troop-groupbox-arabian-row-16
     display: GroupBox
-    header: Fire Ballista
+    header: '{{ui.fire-ballista}}'
     columns: 3
     children:
     - url: startResources.startTroops.arabian.normal.FireBallista
-      text: Fire Ballista
+      text: '{{ui.fire-ballista}}'
       display: Number
       contents:
         min: 0
@@ -1002,7 +1002,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.crusader.FireBallista
-      text: Fire Ballista
+      text: '{{ui.fire-ballista}}'
       display: Number
       contents:
         min: 0
@@ -1010,7 +1010,7 @@ options:
         type: number
         value: 0
     - url: startResources.startTroops.arabian.deathmatch.FireBallista
-      text: Fire Ballista
+      text: '{{ui.fire-ballista}}'
       display: Number
       contents:
         min: 0
@@ -1019,25 +1019,25 @@ options:
         value: 0
 - name: gold-groupbox-normal
   display: Group
-  text: Normal game
+  text: '{{ui.normal-game}}'
   category:
-  - Start resources
-  - Start gold
+  - '{{ui.start-resources}}'
+  - '{{ui.start-gold}}'
   table:
-    rowHeader: Advantage
+    rowHeader: '{{ui.advantage}}'
     columns:
     - name: human
-      header: Human
+      header: '{{ui.human}}'
     - name: ai
-      header: AI
+      header: '{{ui.ai}}'
   children:
   - name: gold-groupbox-normal-row-0
     display: GroupBox
-    header: Major human advantage
+    header: '{{ui.major-human-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.normal.majorHumanAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1045,7 +1045,7 @@ options:
         type: number
         value: 8000
     - url: startResources.startGold.normal.majorHumanAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1054,11 +1054,11 @@ options:
         value: 2000
   - name: gold-groupbox-normal-row-1
     display: GroupBox
-    header: Minor human advantage
+    header: '{{ui.minor-human-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.normal.minorHumanAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1066,7 +1066,7 @@ options:
         type: number
         value: 4000
     - url: startResources.startGold.normal.minorHumanAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1075,11 +1075,11 @@ options:
         value: 2000
   - name: gold-groupbox-normal-row-2
     display: GroupBox
-    header: No advantage
+    header: '{{ui.no-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.normal.noAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1087,7 +1087,7 @@ options:
         type: number
         value: 2000
     - url: startResources.startGold.normal.noAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1096,11 +1096,11 @@ options:
         value: 2000
   - name: gold-groupbox-normal-row-3
     display: GroupBox
-    header: Minor computer advantage
+    header: '{{ui.minor-computer-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.normal.minorComputerAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1108,7 +1108,7 @@ options:
         type: number
         value: 2000
     - url: startResources.startGold.normal.minorComputerAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1117,11 +1117,11 @@ options:
         value: 4000
   - name: gold-groupbox-normal-row-4
     display: GroupBox
-    header: Major computer advantage
+    header: '{{ui.major-computer-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.normal.majorComputerAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1129,7 +1129,7 @@ options:
         type: number
         value: 2000
     - url: startResources.startGold.normal.majorComputerAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1138,25 +1138,25 @@ options:
         value: 8000
 - name: gold-groupbox-crusader
   display: Group
-  text: Crusader game
+  text: '{{ui.crusader-game}}'
   category:
-  - Start resources
-  - Start gold
+  - '{{ui.start-resources}}'
+  - '{{ui.start-gold}}'
   table:
-    rowHeader: Advantage
+    rowHeader: '{{ui.advantage}}'
     columns:
     - name: human
-      header: Human
+      header: '{{ui.human}}'
     - name: ai
-      header: AI
+      header: '{{ui.ai}}'
   children:
   - name: gold-groupbox-crusader-row-0
     display: GroupBox
-    header: Major human advantage
+    header: '{{ui.major-human-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.crusader.majorHumanAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1164,7 +1164,7 @@ options:
         type: number
         value: 8000
     - url: startResources.startGold.crusader.majorHumanAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1173,11 +1173,11 @@ options:
         value: 2000
   - name: gold-groupbox-crusader-row-1
     display: GroupBox
-    header: Minor human advantage
+    header: '{{ui.minor-human-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.crusader.minorHumanAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1185,7 +1185,7 @@ options:
         type: number
         value: 4000
     - url: startResources.startGold.crusader.minorHumanAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1194,11 +1194,11 @@ options:
         value: 2000
   - name: gold-groupbox-crusader-row-2
     display: GroupBox
-    header: No advantage
+    header: '{{ui.no-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.crusader.noAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1206,7 +1206,7 @@ options:
         type: number
         value: 2000
     - url: startResources.startGold.crusader.noAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1215,11 +1215,11 @@ options:
         value: 2000
   - name: gold-groupbox-crusader-row-3
     display: GroupBox
-    header: Minor computer advantage
+    header: '{{ui.minor-computer-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.crusader.minorComputerAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1227,7 +1227,7 @@ options:
         type: number
         value: 2000
     - url: startResources.startGold.crusader.minorComputerAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1236,11 +1236,11 @@ options:
         value: 4000
   - name: gold-groupbox-crusader-row-4
     display: GroupBox
-    header: Major computer advantage
+    header: '{{ui.major-computer-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.crusader.majorComputerAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1248,7 +1248,7 @@ options:
         type: number
         value: 2000
     - url: startResources.startGold.crusader.majorComputerAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1257,25 +1257,25 @@ options:
         value: 8000
 - name: gold-groupbox-deathmatch
   display: Group
-  text: Deathmatch game
+  text: '{{ui.deathmatch-game}}'
   category:
-  - Start resources
-  - Start gold
+  - '{{ui.start-resources}}'
+  - '{{ui.start-gold}}'
   table:
-    rowHeader: Advantage
+    rowHeader: '{{ui.advantage}}'
     columns:
     - name: human
-      header: Human
+      header: '{{ui.human}}'
     - name: ai
-      header: AI
+      header: '{{ui.ai}}'
   children:
   - name: gold-groupbox-deathmatch-row-0
     display: GroupBox
-    header: Major human advantage
+    header: '{{ui.major-human-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.deathmatch.majorHumanAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1283,7 +1283,7 @@ options:
         type: number
         value: 40000
     - url: startResources.startGold.deathmatch.majorHumanAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1292,11 +1292,11 @@ options:
         value: 3000
   - name: gold-groupbox-deathmatch-row-1
     display: GroupBox
-    header: Minor human advantage
+    header: '{{ui.minor-human-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.deathmatch.minorHumanAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1304,7 +1304,7 @@ options:
         type: number
         value: 20000
     - url: startResources.startGold.deathmatch.minorHumanAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1313,11 +1313,11 @@ options:
         value: 7000
   - name: gold-groupbox-deathmatch-row-2
     display: GroupBox
-    header: No advantage
+    header: '{{ui.no-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.deathmatch.noAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1325,7 +1325,7 @@ options:
         type: number
         value: 10000
     - url: startResources.startGold.deathmatch.noAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1334,11 +1334,11 @@ options:
         value: 10000
   - name: gold-groupbox-deathmatch-row-3
     display: GroupBox
-    header: Minor computer advantage
+    header: '{{ui.minor-computer-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.deathmatch.minorComputerAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1346,7 +1346,7 @@ options:
         type: number
         value: 7000
     - url: startResources.startGold.deathmatch.minorComputerAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1355,11 +1355,11 @@ options:
         value: 20000
   - name: gold-groupbox-deathmatch-row-4
     display: GroupBox
-    header: Major computer advantage
+    header: '{{ui.major-computer-advantage}}'
     columns: 2
     children:
     - url: startResources.startGold.deathmatch.majorComputerAdvantage.human
-      text: Human has gold
+      text: '{{ui.human-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1367,7 +1367,7 @@ options:
         type: number
         value: 3000
     - url: startResources.startGold.deathmatch.majorComputerAdvantage.computer
-      text: Computer has gold
+      text: '{{ui.computer-has-gold}}'
       display: Number
       contents:
         min: 0
@@ -1376,27 +1376,27 @@ options:
         value: 40000
 - name: starting-goods
   display: Group
-  text: Starting goods
+  text: '{{ui.starting-goods}}'
   category:
-  - Start resources
-  - Start goods
+  - '{{ui.start-resources}}'
+  - '{{ui.start-goods}}'
   table:
-    rowHeader: Resource
+    rowHeader: '{{ui.resource}}'
     columns:
     - name: goods-groupbox-normal
-      header: Normal game
+      header: '{{ui.normal-game}}'
     - name: goods-groupbox-crusader
-      header: Crusader game
+      header: '{{ui.crusader-game}}'
     - name: goods-groupbox-deathmatch
-      header: Deathmatch game
+      header: '{{ui.deathmatch-game}}'
   children:
   - name: starting-goods-row-0
     display: GroupBox
-    header: Wood
+    header: '{{ui.wood}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.wood
-      text: Wood
+      text: '{{ui.wood}}'
       display: Number
       contents:
         min: 0
@@ -1404,7 +1404,7 @@ options:
         type: number
         value: 100
     - url: startResources.startGoods.crusader.wood
-      text: Wood
+      text: '{{ui.wood}}'
       display: Number
       contents:
         min: 0
@@ -1412,7 +1412,7 @@ options:
         type: number
         value: 100
     - url: startResources.startGoods.deathmatch.wood
-      text: Wood
+      text: '{{ui.wood}}'
       display: Number
       contents:
         min: 0
@@ -1421,11 +1421,11 @@ options:
         value: 150
   - name: starting-goods-row-1
     display: GroupBox
-    header: Hop
+    header: '{{ui.hop}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.hop
-      text: Hop
+      text: '{{ui.hop}}'
       display: Number
       contents:
         min: 0
@@ -1433,7 +1433,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.hop
-      text: Hop
+      text: '{{ui.hop}}'
       display: Number
       contents:
         min: 0
@@ -1441,7 +1441,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.hop
-      text: Hop
+      text: '{{ui.hop}}'
       display: Number
       contents:
         min: 0
@@ -1450,11 +1450,11 @@ options:
         value: 20
   - name: starting-goods-row-2
     display: GroupBox
-    header: Stone
+    header: '{{ui.stone}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.stone
-      text: Stone
+      text: '{{ui.stone}}'
       display: Number
       contents:
         min: 0
@@ -1462,7 +1462,7 @@ options:
         type: number
         value: 50
     - url: startResources.startGoods.crusader.stone
-      text: Stone
+      text: '{{ui.stone}}'
       display: Number
       contents:
         min: 0
@@ -1470,7 +1470,7 @@ options:
         type: number
         value: 50
     - url: startResources.startGoods.deathmatch.stone
-      text: Stone
+      text: '{{ui.stone}}'
       display: Number
       contents:
         min: 0
@@ -1479,11 +1479,11 @@ options:
         value: 150
   - name: starting-goods-row-3
     display: GroupBox
-    header: Iron
+    header: '{{ui.iron}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.iron
-      text: Iron
+      text: '{{ui.iron}}'
       display: Number
       contents:
         min: 0
@@ -1491,7 +1491,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.iron
-      text: Iron
+      text: '{{ui.iron}}'
       display: Number
       contents:
         min: 0
@@ -1499,7 +1499,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.iron
-      text: Iron
+      text: '{{ui.iron}}'
       display: Number
       contents:
         min: 0
@@ -1508,11 +1508,11 @@ options:
         value: 25
   - name: starting-goods-row-4
     display: GroupBox
-    header: Pitch
+    header: '{{ui.pitch}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.pitch
-      text: Pitch
+      text: '{{ui.pitch}}'
       display: Number
       contents:
         min: 0
@@ -1520,7 +1520,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.pitch
-      text: Pitch
+      text: '{{ui.pitch}}'
       display: Number
       contents:
         min: 0
@@ -1528,7 +1528,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.pitch
-      text: Pitch
+      text: '{{ui.pitch}}'
       display: Number
       contents:
         min: 0
@@ -1537,11 +1537,11 @@ options:
         value: 48
   - name: starting-goods-row-5
     display: GroupBox
-    header: Wheat
+    header: '{{ui.wheat}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.wheat
-      text: Wheat
+      text: '{{ui.wheat}}'
       display: Number
       contents:
         min: 0
@@ -1549,7 +1549,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.wheat
-      text: Wheat
+      text: '{{ui.wheat}}'
       display: Number
       contents:
         min: 0
@@ -1557,7 +1557,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.wheat
-      text: Wheat
+      text: '{{ui.wheat}}'
       display: Number
       contents:
         min: 0
@@ -1566,11 +1566,11 @@ options:
         value: 25
   - name: starting-goods-row-6
     display: GroupBox
-    header: Bread
+    header: '{{ui.bread}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.bread
-      text: Bread
+      text: '{{ui.bread}}'
       display: Number
       contents:
         min: 0
@@ -1578,7 +1578,7 @@ options:
         type: number
         value: 60
     - url: startResources.startGoods.crusader.bread
-      text: Bread
+      text: '{{ui.bread}}'
       display: Number
       contents:
         min: 0
@@ -1586,7 +1586,7 @@ options:
         type: number
         value: 60
     - url: startResources.startGoods.deathmatch.bread
-      text: Bread
+      text: '{{ui.bread}}'
       display: Number
       contents:
         min: 0
@@ -1595,11 +1595,11 @@ options:
         value: 200
   - name: starting-goods-row-7
     display: GroupBox
-    header: Cheese
+    header: '{{ui.cheese}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.cheese
-      text: Cheese
+      text: '{{ui.cheese}}'
       display: Number
       contents:
         min: 0
@@ -1607,7 +1607,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.cheese
-      text: Cheese
+      text: '{{ui.cheese}}'
       display: Number
       contents:
         min: 0
@@ -1615,7 +1615,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.cheese
-      text: Cheese
+      text: '{{ui.cheese}}'
       display: Number
       contents:
         min: 0
@@ -1624,11 +1624,11 @@ options:
         value: 0
   - name: starting-goods-row-8
     display: GroupBox
-    header: Meat
+    header: '{{ui.meat}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.meat
-      text: Meat
+      text: '{{ui.meat}}'
       display: Number
       contents:
         min: 0
@@ -1636,7 +1636,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.meat
-      text: Meat
+      text: '{{ui.meat}}'
       display: Number
       contents:
         min: 0
@@ -1644,7 +1644,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.meat
-      text: Meat
+      text: '{{ui.meat}}'
       display: Number
       contents:
         min: 0
@@ -1653,11 +1653,11 @@ options:
         value: 0
   - name: starting-goods-row-9
     display: GroupBox
-    header: Fruit
+    header: '{{ui.fruit}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.fruit
-      text: Fruit
+      text: '{{ui.fruit}}'
       display: Number
       contents:
         min: 0
@@ -1665,7 +1665,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.fruit
-      text: Fruit
+      text: '{{ui.fruit}}'
       display: Number
       contents:
         min: 0
@@ -1673,7 +1673,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.fruit
-      text: Fruit
+      text: '{{ui.fruit}}'
       display: Number
       contents:
         min: 0
@@ -1682,11 +1682,11 @@ options:
         value: 0
   - name: starting-goods-row-10
     display: GroupBox
-    header: Beer
+    header: '{{ui.beer}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.beer
-      text: Beer
+      text: '{{ui.beer}}'
       display: Number
       contents:
         min: 0
@@ -1694,7 +1694,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.beer
-      text: Beer
+      text: '{{ui.beer}}'
       display: Number
       contents:
         min: 0
@@ -1702,7 +1702,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.beer
-      text: Beer
+      text: '{{ui.beer}}'
       display: Number
       contents:
         min: 0
@@ -1711,11 +1711,11 @@ options:
         value: 10
   - name: starting-goods-row-11
     display: GroupBox
-    header: Flour
+    header: '{{ui.flour}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.flour
-      text: Flour
+      text: '{{ui.flour}}'
       display: Number
       contents:
         min: 0
@@ -1723,7 +1723,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.flour
-      text: Flour
+      text: '{{ui.flour}}'
       display: Number
       contents:
         min: 0
@@ -1731,7 +1731,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.flour
-      text: Flour
+      text: '{{ui.flour}}'
       display: Number
       contents:
         min: 0
@@ -1740,11 +1740,11 @@ options:
         value: 0
   - name: starting-goods-row-12
     display: GroupBox
-    header: Bows
+    header: '{{ui.bows}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.bows
-      text: Bows
+      text: '{{ui.bows}}'
       display: Number
       contents:
         min: 0
@@ -1752,7 +1752,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.bows
-      text: Bows
+      text: '{{ui.bows}}'
       display: Number
       contents:
         min: 0
@@ -1760,7 +1760,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.bows
-      text: Bows
+      text: '{{ui.bows}}'
       display: Number
       contents:
         min: 0
@@ -1769,11 +1769,11 @@ options:
         value: 0
   - name: starting-goods-row-13
     display: GroupBox
-    header: Crossbows
+    header: '{{ui.crossbows}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.crossbows
-      text: Crossbows
+      text: '{{ui.crossbows}}'
       display: Number
       contents:
         min: 0
@@ -1781,7 +1781,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.crossbows
-      text: Crossbows
+      text: '{{ui.crossbows}}'
       display: Number
       contents:
         min: 0
@@ -1789,7 +1789,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.crossbows
-      text: Crossbows
+      text: '{{ui.crossbows}}'
       display: Number
       contents:
         min: 0
@@ -1798,11 +1798,11 @@ options:
         value: 0
   - name: starting-goods-row-14
     display: GroupBox
-    header: Spears
+    header: '{{ui.spears}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.spears
-      text: Spears
+      text: '{{ui.spears}}'
       display: Number
       contents:
         min: 0
@@ -1810,7 +1810,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.spears
-      text: Spears
+      text: '{{ui.spears}}'
       display: Number
       contents:
         min: 0
@@ -1818,7 +1818,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.spears
-      text: Spears
+      text: '{{ui.spears}}'
       display: Number
       contents:
         min: 0
@@ -1827,11 +1827,11 @@ options:
         value: 0
   - name: starting-goods-row-15
     display: GroupBox
-    header: Pikes
+    header: '{{ui.pikes}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.pikes
-      text: Pikes
+      text: '{{ui.pikes}}'
       display: Number
       contents:
         min: 0
@@ -1839,7 +1839,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.pikes
-      text: Pikes
+      text: '{{ui.pikes}}'
       display: Number
       contents:
         min: 0
@@ -1847,7 +1847,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.pikes
-      text: Pikes
+      text: '{{ui.pikes}}'
       display: Number
       contents:
         min: 0
@@ -1856,11 +1856,11 @@ options:
         value: 0
   - name: starting-goods-row-16
     display: GroupBox
-    header: Maces
+    header: '{{ui.maces}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.maces
-      text: Maces
+      text: '{{ui.maces}}'
       display: Number
       contents:
         min: 0
@@ -1868,7 +1868,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.maces
-      text: Maces
+      text: '{{ui.maces}}'
       display: Number
       contents:
         min: 0
@@ -1876,7 +1876,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.maces
-      text: Maces
+      text: '{{ui.maces}}'
       display: Number
       contents:
         min: 0
@@ -1885,11 +1885,11 @@ options:
         value: 0
   - name: starting-goods-row-17
     display: GroupBox
-    header: Swords
+    header: '{{ui.swords}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.swords
-      text: Swords
+      text: '{{ui.swords}}'
       display: Number
       contents:
         min: 0
@@ -1897,7 +1897,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.swords
-      text: Swords
+      text: '{{ui.swords}}'
       display: Number
       contents:
         min: 0
@@ -1905,7 +1905,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.swords
-      text: Swords
+      text: '{{ui.swords}}'
       display: Number
       contents:
         min: 0
@@ -1914,11 +1914,11 @@ options:
         value: 0
   - name: starting-goods-row-18
     display: GroupBox
-    header: Leather armor
+    header: '{{ui.leather-armor}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.leatherarmor
-      text: Leather armor
+      text: '{{ui.leather-armor}}'
       display: Number
       contents:
         min: 0
@@ -1926,7 +1926,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.leatherarmor
-      text: Leather armor
+      text: '{{ui.leather-armor}}'
       display: Number
       contents:
         min: 0
@@ -1934,7 +1934,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.leatherarmor
-      text: Leather armor
+      text: '{{ui.leather-armor}}'
       display: Number
       contents:
         min: 0
@@ -1943,11 +1943,11 @@ options:
         value: 0
   - name: starting-goods-row-19
     display: GroupBox
-    header: Metal armor
+    header: '{{ui.metal-armor}}'
     columns: 3
     children:
     - url: startResources.startGoods.normal.metalarmor
-      text: Metal armor
+      text: '{{ui.metal-armor}}'
       display: Number
       contents:
         min: 0
@@ -1955,7 +1955,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.crusader.metalarmor
-      text: Metal armor
+      text: '{{ui.metal-armor}}'
       display: Number
       contents:
         min: 0
@@ -1963,7 +1963,7 @@ options:
         type: number
         value: 0
     - url: startResources.startGoods.deathmatch.metalarmor
-      text: Metal armor
+      text: '{{ui.metal-armor}}'
       display: Number
       contents:
         min: 0

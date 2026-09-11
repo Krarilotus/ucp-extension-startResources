@@ -1,0 +1,61 @@
+ui.crusader-lords: Kreuzritter-Fürsten
+ui.start-troops: Starttruppen
+ui.troop: Einheit
+ui.normal-game: Normales Spiel
+ui.crusader-game: Kreuzritter-Spiel
+ui.deathmatch-game: Deathmatch
+ui.european-archer: Europäischer Bogenschütze
+ui.crossbowman: Armbrustschütze
+ui.spearman: Speerträger
+ui.pikeman: Pikenier
+ui.maceman: Streitkolbenkämpfer
+ui.swordsman: Schwertkämpfer
+ui.knight: Ritter
+ui.engineer: Ingenieur
+ui.monk: Mönch
+ui.arab-archer: Arabischer Bogenschütze
+ui.slave: Sklave
+ui.slinger: Schleuderer
+ui.assassin: Assassine
+ui.horsearcher: Berittener Bogenschütze
+ui.arabian-swordsman: Arabischer Schwertkämpfer
+ui.firethrower: Feuerwerfer
+ui.fire-ballista: Feuerballiste
+ui.arabian-lords: Arabische Fürsten
+ui.start-resources: Startressourcen
+ui.start-gold: Startgold
+ui.advantage: Vorteil
+ui.human: Mensch
+ui.ai: KI
+ui.major-human-advantage: Großer Vorteil für Menschen
+ui.human-has-gold: Mensch hat Gold
+ui.computer-has-gold: Computer hat Gold
+ui.minor-human-advantage: Kleiner Vorteil für Menschen
+ui.no-advantage: Kein Vorteil
+ui.minor-computer-advantage: Kleiner Vorteil für Computer
+ui.major-computer-advantage: Großer Vorteil für Computer
+ui.starting-goods: Anfängliche Waren
+ui.start-goods: Startwaren
+ui.resource: Ressource
+ui.wood: Holz
+ui.hop: Hopfen
+ui.stone: Stein
+ui.iron: Eisen
+ui.pitch: Pech
+ui.wheat: Weizen
+ui.bread: Brot
+ui.cheese: Käse
+ui.meat: Fleisch
+ui.fruit: Obst
+ui.beer: Bier
+ui.flour: Mehl
+ui.bows: Bögen
+ui.crossbows: Armbrüste
+ui.spears: Speere
+ui.pikes: Piken
+ui.maces: Streitkolben
+ui.swords: Schwerter
+ui.leather-armor: Lederrüstungen
+ui.metal-armor: Metallrüstungen
+tags.balance: Balance
+tags.economy: Wirtschaft

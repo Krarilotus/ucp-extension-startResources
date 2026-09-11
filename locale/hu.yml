@@ -1,0 +1,61 @@
+ui.crusader-lords: Keresztes urak
+ui.start-troops: Kezdő csapatok
+ui.troop: Egység
+ui.normal-game: Normál játék
+ui.crusader-game: Keresztes játék
+ui.deathmatch-game: Halálmeccs
+ui.european-archer: Európai íjász
+ui.crossbowman: Számszeríjász
+ui.spearman: Lándzsás
+ui.pikeman: Pikás
+ui.maceman: Buzogányos
+ui.swordsman: Kardforgató
+ui.knight: Lovag
+ui.engineer: Mérnök
+ui.monk: Szerzetes
+ui.arab-archer: Arab íjász
+ui.slave: Rabszolga
+ui.slinger: Parittyás
+ui.assassin: Orgyilkos
+ui.horsearcher: Lovas íjász
+ui.arabian-swordsman: Arab kardforgató
+ui.firethrower: Tűzhajító
+ui.fire-ballista: Tűzballiszta
+ui.arabian-lords: Arab urak
+ui.start-resources: Kezdő nyersanyagok
+ui.start-gold: Kezdő arany
+ui.advantage: Előny
+ui.human: Ember
+ui.ai: MI
+ui.major-human-advantage: Nagy emberi előny
+ui.human-has-gold: Az embernek van aranya
+ui.computer-has-gold: A gépnek van aranya
+ui.minor-human-advantage: Kis emberi előny
+ui.no-advantage: Nincs előny
+ui.minor-computer-advantage: Kis gépi előny
+ui.major-computer-advantage: Nagy gépi előny
+ui.starting-goods: Kezdeti áruk
+ui.start-goods: Kezdő áruk
+ui.resource: Nyersanyag
+ui.wood: Fa
+ui.hop: Komló
+ui.stone: Kő
+ui.iron: Vas
+ui.pitch: Szurok
+ui.wheat: Búza
+ui.bread: Kenyér
+ui.cheese: Sajt
+ui.meat: Hús
+ui.fruit: Gyümölcs
+ui.beer: Sör
+ui.flour: Liszt
+ui.bows: Íjak
+ui.crossbows: Számszeríjak
+ui.spears: Lándzsák
+ui.pikes: Pikák
+ui.maces: Buzogányok
+ui.swords: Kardok
+ui.leather-armor: Bőrpáncélok
+ui.metal-armor: Fémpáncélok
+tags.balance: Egyensúly
+tags.economy: Gazdaság
